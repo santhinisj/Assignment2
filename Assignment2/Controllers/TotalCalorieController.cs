@@ -9,7 +9,7 @@ namespace Assignment2.Controllers
 {
     public class TotalCalorieController : ApiController
     {
-
+        //J1 problem
         // GET api/J1/Menu/4/4/4/4 --> returns 0
         [Route("api/J1/Menu/{burger}/{drink}/{side}/{dessert}")]
         //This method accepts 4 index parameters and return the total calories

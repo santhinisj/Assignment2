@@ -9,7 +9,7 @@ namespace Assignment2.Controllers
 {
     public class RollDiceController : ApiController
     {
-
+        //J2 problem
         // GET api/J2/DiceGame/6/8 returns "There are 5 ways to get the sum 10"
 
         [Route("api/J2/DiceGame/{m}/{n}")]
