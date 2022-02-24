@@ -26,7 +26,7 @@ namespace Assignment2.Controllers
             int firstDigit = secretcode[0];
             int secondDigit = secretcode[1];
             if ((firstDigit + secondDigit) % 2 == 0) {
-                return "right " + secretcode[2]+secretcode[3]+secretcode[4];
+                return "right " + secretcode[2] + secretcode[3] + secretcode[4];
             }
             else
             {
